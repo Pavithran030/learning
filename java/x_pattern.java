@@ -1,6 +1,5 @@
 class x_pattern{
     public static void main(String [] args){
-        System.err.println("Happy day.......");
         int n=5;
         int n1=n;
         for (int i=0;i<n;i++){

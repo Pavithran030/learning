@@ -9,7 +9,7 @@ public class Enumerator {
         System.out.println(n1);
 
 
-        // switch 
+        // switchg
         switch (n1) {
             case Audi -> System.out.println("Its Audi");
             case BMW -> System.out.println("Its BMW");
@@ -24,5 +24,4 @@ public class Enumerator {
         }
         // s1=Car.values();
     }
-    
 }

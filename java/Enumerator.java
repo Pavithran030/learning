@@ -1,3 +1,5 @@
+
+
 enum Car{
     Audi,BMW,Mercedes,Ferahi,lamboghni;
 }
@@ -9,15 +11,18 @@ public class Enumerator {
 
         // switch 
         switch (n1) {
-            case Audi:
-                System.out.println("Its Audi");
-                break;
-            case BMW:
-                System.out.println("Its BMW");
-                break;
-            default:
-                throw new AssertionError();
+            case Audi -> System.out.println("Its Audi");
+            case BMW -> System.out.println("Its BMW");
+            default -> throw new AssertionError();
         }
+
+        // As a Array
+
+        Car [] s1 =Car.values();
+        for(Car s:s1){
+            System.out.println(s);
+        }
+        // s1=Car.values();
     }
     
 }

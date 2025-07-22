@@ -1,6 +1,6 @@
 
 class A{
-    public static void print1(){
+    public void print1(){
         System.out.println("Displaying the Output...");
     }
 
